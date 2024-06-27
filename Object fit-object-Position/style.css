@@ -1,0 +1,44 @@
+img{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    border: 5px dotted grey;
+    background-color: black;
+}
+.img1{
+    object-fit: fill;
+    display: inline-block;
+}
+.img2{
+    object-fit: contain;
+    display: inline-block;
+}
+.img3{
+    object-fit: cover;
+}
+#img4{
+    object-fit: none;
+}
+.img5{
+    object-fit: scale-down;
+}
+.img11{
+    object-fit: fill;
+    object-position: 150px -150px  ;
+}
+.img12{
+    object-fit: contain;
+    object-position: 150px 200px;
+}
+.img13{
+    object-fit: cover;
+    object-position: 100px 0px;
+}
+#img14{
+    object-fit: none;
+    object-position: -100px -220px;
+}
+.img15{
+    object-fit: scale-down;
+    object-position: 100px 0px;
+}
